@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D303F1F29AD1C7A00349D9D /* GestureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303F1E29AD1C7A00349D9D /* GestureRow.swift */; };
 		8DCB7BCD29AD153A00EA598F /* Recognizing_GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB7BCC29AD153A00EA598F /* Recognizing_GesturesApp.swift */; };
 		8DCB7BCF29AD153A00EA598F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB7BCE29AD153A00EA598F /* ContentView.swift */; };
 		8DCB7BD129AD153B00EA598F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCB7BD029AD153B00EA598F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D303F1E29AD1C7A00349D9D /* GestureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRow.swift; sourceTree = "<group>"; };
 		8DCB7BC929AD153A00EA598F /* Recognizing Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recognizing Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCB7BCC29AD153A00EA598F /* Recognizing_GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizing_GesturesApp.swift; sourceTree = "<group>"; };
 		8DCB7BCE29AD153A00EA598F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				8DCB7BCC29AD153A00EA598F /* Recognizing_GesturesApp.swift */,
 				8DCB7BCE29AD153A00EA598F /* ContentView.swift */,
+				8D303F1E29AD1C7A00349D9D /* GestureRow.swift */,
 				8DCB7BD029AD153B00EA598F /* Assets.xcassets */,
 				8DCB7BD229AD153B00EA598F /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				8DCB7BCF29AD153A00EA598F /* ContentView.swift in Sources */,
 				8DCB7BCD29AD153A00EA598F /* Recognizing_GesturesApp.swift in Sources */,
+				8D303F1F29AD1C7A00349D9D /* GestureRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
