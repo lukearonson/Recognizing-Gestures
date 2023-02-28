@@ -1,4 +1,4 @@
-Import SwiftUI 
+import SwiftUI
 
 struct TapView: View{
     @State private var color: Color = Color.primary 
@@ -13,7 +13,7 @@ struct TapView: View{
         
     }
 
-    var body: some view{
+    var body: some View{
         VStack{
             Text("Tap the rectangle to change its color")
             Spacer()
@@ -41,7 +41,7 @@ extension Color{
     static func random() -> Color{
         return Color(red: Double.random(in: 0...1),
         green: Double.random(in: 0...1),
-        blue: Double.random(in: 0... 1)) 
+                     blue: Double.random(in: 0...1))
         
     }
 }
